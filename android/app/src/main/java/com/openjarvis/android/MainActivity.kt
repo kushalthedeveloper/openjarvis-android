@@ -49,6 +49,7 @@ class MainActivity : ComponentActivity() {
 
 private data class ChatLine(val role: String, val text: String)
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun OpenJarvisApp(
     loadBase: () -> String,
